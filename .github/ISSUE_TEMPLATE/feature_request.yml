@@ -1,0 +1,24 @@
+name: Feature request
+description: Propose an improvement tied to a user problem.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem
+      description: What job becomes easier or safer?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Privacy, uncertainty, and product tradeoffs
+    validations:
+      required: true

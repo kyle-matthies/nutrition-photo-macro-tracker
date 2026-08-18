@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local nutrition data
+data/
+*.sqlite
+*.sqlite-*
+*.db
+
+# Meal photos are private by default
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+*.gif
+
+# Supabase local runtime
+supabase/.branches/
+supabase/.temp/
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
