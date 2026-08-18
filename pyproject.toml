@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling>=1.27"]
+requires = ["hatchling>=1.32.0"]
 build-backend = "hatchling.build"
 
 [project]
@@ -20,8 +20,8 @@ classifiers = [
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 dependencies = [
-  "openai>=1.100,<3",
-  "pandas>=2.2,<3",
+  "openai>=3.1.0,<4",
+  "pandas>=3.0.5,<4",
   "pillow>=10,<13",
   "pydantic>=2.10,<3",
   "python-dotenv>=1.0,<2",
@@ -31,7 +31,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-  "pytest>=8.3,<9",
+  "pytest>=9.1.1,<10",
   "ruff>=0.9,<1",
 ]
 
